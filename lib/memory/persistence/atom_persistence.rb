@@ -6,12 +6,12 @@ module Memory
           next if event_already_in(object.id.content)
 
           event = Memory::Models::Event.new.tap do |e|
-            e.id = object.id.content
-            e.author = object.author.name
-            e.link = object.link
-            e.title = object.title
-            e.published = object.published
-            e.updated = object.updated
+            e.guid = object.id.content
+            e.author = object.author.name.content
+            e.link = object.link.href
+            e.title = object.title.content
+            e.published = object.published.content.to_s
+            e.updated = object.updated.content.to_s
           end
 
           event.save
