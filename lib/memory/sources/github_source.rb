@@ -5,7 +5,7 @@ module Memory
 
       def initialize(username:)
         @username = username
-        @store = Memory::Stores::RedisStore.new
+        @store = Memory::Persistence::AtomPersistence.new
         @parser = Memory::Parsers::RSSParser.new
       end
 
