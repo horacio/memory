@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/svankmajer</id>
+  <link type="text/html" rel="alternate" href="https://github.com/svankmajer"/>
+  <link type="application/atom+xml" rel="self"
+href="https://github.com/svankmajer.atom"/>
+  <title>svankmajer&#39;s Activity</title>
+  <updated>2014-08-30T19:55:31Z</updated>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/2262564809</id>
+    <published>2014-08-30T19:55:31Z</published>
+    <updated>2014-08-30T19:55:31Z</updated>
+    <link type="text/html" rel="alternate"
+href="https://github.com/svankmajer/course-001"/>
+    <title type="html">svankmajer forked elm-city-craftworks/course-001 to
+svankmajer/course-001</title>
+    <author>
+      <name>svankmajer</name>
+      <email>airOnGString@gmail.com</email>
+      <uri>https://github.com/svankmajer</uri>
+    </author>
+    <media:thumbnail height="30" width="30"
+url="https://avatars1.githubusercontent.com/u/7662728?v=2&amp;s=30"/>
+    <content type="html">&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/svankmajer&quot;&gt;svankmajer&lt;/a&gt;
+&lt;span&gt;forked&lt;/span&gt; &lt;a
+href=&quot;https://github.com/elm-city-craftworks/course-001&quot;
+class=&quot;css-truncate
+css-truncate-target&quot;&gt;elm-city-craftworks/course-001&lt;/a&gt; to &lt;a
+href=&quot;https://github.com/svankmajer/course-001&quot;
+class=&quot;css-truncate css-truncate-target&quot;
+title=&quot;svankmajer/course-001&quot;&gt;svankmajer/course-001&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time datetime=&quot;2014-08-30T19:55:31Z&quot;
+is=&quot;relative-time&quot;&gt;August 30, 2014&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/2259916686</id>
+    <published>2014-08-28T21:40:45Z</published>
+    <updated>2014-08-28T21:40:45Z</updated>
+    <link type="text/html" rel="alternate"
+href="https://github.com/svankmajer/speckfiles/compare/3f90601636...f5345c9c99"/>
+    <title type="html">svankmajer pushed to master at
+svankmajer/speckfiles</title>
+    <author>
+      <name>svankmajer</name>
+      <email>airOnGString@gmail.com</email>
+      <uri>https://github.com/svankmajer</uri>
+    </author>
+    <media:thumbnail height="30" width="30"
+url="https://avatars1.githubusercontent.com/u/7662728?v=2&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time datetime=&quot;2014-08-28T21:40:45Z&quot;
+is=&quot;relative-time&quot;&gt;August 28, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/svankmajer&quot;&gt;svankmajer&lt;/a&gt;
+&lt;span&gt;pushed&lt;/span&gt; to &lt;a
+href=&quot;/svankmajer/speckfiles/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a
+href=&quot;https://github.com/svankmajer/speckfiles&quot;
+class=&quot;css-truncate
+css-truncate-target&quot;&gt;svankmajer/speckfiles&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/svankmajer&quot;&gt;&lt;img
+alt=&quot;Horacio Bertorello&quot; class=&quot;gravatar&quot;
+data-user=&quot;7662728&quot; height=&quot;30&quot;
+src=&quot;https://avatars0.githubusercontent.com/u/7662728?v=2&amp;amp;s=60&quot;
+width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;svankmajer&quot;&gt;
+            &lt;img alt=&quot;Horacio Bertorello&quot;
+data-user=&quot;7662728&quot; height=&quot;16&quot;
+src=&quot;https://avatars1.githubusercontent.com/u/7662728?v=2&amp;amp;s=32&quot;
+width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a
+href=&quot;/svankmajer/speckfiles/commit/f5345c9c99ca7f099a67e522e2cbc15b91c57630&quot;&gt;f5345c9&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Add vimrc.local.
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;svankmajer&quot;&gt;
+            &lt;img alt=&quot;Horacio Bertorello&quot;
+data-user=&quot;7662728&quot; height=&quot;16&quot;
+src=&quot;https://avatars1.githubusercontent.com/u/7662728?v=2&amp;amp;s=32&quot;
+width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a
+href=&quot;/svankmajer/speckfiles/commit/d2bbba833fbab525bf65dffacf401e611c3fb6c7&quot;&gt;d2bbba8&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Add some aliases.
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a
+href=&quot;https://github.com/svankmajer/speckfiles/compare/3f90601636...f5345c9c99&quot;&gt;1
+more commit &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
