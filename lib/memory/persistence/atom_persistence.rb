@@ -3,7 +3,7 @@ module Memory
     class AtomPersistence
       def persist(collection)
         collection.items.each_with_object([]) do |object, result|
-          next if event_already_in(object.id.content)
+          next if event_exists?(object.id.content)
 
           event = Memory::Models::Event.new.tap do |e|
             e.guid = object.id.content
@@ -20,7 +20,7 @@ module Memory
 
       private
 
-      def event_already_in(event_id)
+      def event_exists?(event_id)
         Memory::Models::Event.with(:guid, event_id)
       end
     end
