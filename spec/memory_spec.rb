@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe Memory do
   describe Memory::Sources::GitHubSource do
+    subject(:github_source) {
+      Memory::Sources::GitHubSource.new(username: 'svankmajer')
+    }
+
     describe '#new' do
       it 'requires a GitHub username' do
         expect {
@@ -11,17 +15,13 @@ describe Memory do
 
       describe '#feed_url' do
         it 'is built from the configured username' do
-          source = Memory::Sources::GitHubSource.new(username: 'svankmajer')
-
-          expect(source.feed_url).to include(source.username)
+          expect(github_source.feed_url).to include(github_source.username)
         end
       end
 
       describe '#update' do
         it 'updates the store returning the latest events' do
-          source = Memory::Sources::GitHubSource.new(username: 'svankmajer')
-
-          expect(source.update).to be_an(Array)
+          expect(github_source.update).to be_an(Array)
         end
       end
     end
