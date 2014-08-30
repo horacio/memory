@@ -20,7 +20,7 @@ describe Memory do
       end
 
       describe '#update' do
-        it 'updates the store returning the latest events' do
+        it 'updates the store returning an array of the latest events' do
           expect(github_source.update).to be_an(Array)
         end
       end
