@@ -1,14 +1,14 @@
 module Memory
   module Models
     class Event < Ohm::Model
-      attribute :id
+      attribute :guid
       attribute :author
       attribute :link
       attribute :title
       attribute :published
       attribute :updated
 
-      unique :id
+      unique :guid
     end
   end
 end
