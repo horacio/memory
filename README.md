@@ -1,6 +1,6 @@
 # Memory
 
-TODO: Write a gem description
+Transient activity archiver and aggregator.
 
 ## Installation
 
@@ -18,12 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+THIS IS A WORK-IN-PROGRESS.
 
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/memory/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+3. Add tests for everything. This is not optional.
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request
